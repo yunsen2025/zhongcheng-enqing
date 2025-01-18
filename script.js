@@ -2,11 +2,11 @@
 const sets = [
     {
         audio: "audio/prk.mp3",  // 北韩
-        image: "assets/images/prk.png"
+        image: "assets/images/kor.png"
     },
     {
         audio: "audio/kor.mp3",  // 朝鲜南
-        image: "assets/images/kor.png"
+        image: "assets/images/prk.png"
     }
 ];
 
