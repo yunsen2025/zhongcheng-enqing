@@ -19,7 +19,7 @@ const playPauseIcon = document.getElementById("playPauseIcon");
 const labelElement = document.getElementById("label");
 
 // 用于记录当前播放的组合
-let currentSet = 0;  // 默认从“忠诚”开始（即组合1）
+let currentSet = 1;  // 默认从“忠诚”开始（即组合1）
 
 // 获取上次播放进度（如果有的话）
 let lastProgress = parseFloat(localStorage.getItem("audioProgress")) || 0;
