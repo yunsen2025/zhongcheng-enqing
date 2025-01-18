@@ -1,11 +1,11 @@
 // 预设组合1和组合2的音频和图片（本地资源路径）
 const sets = [
     {
-        audio: "audio/prk.mp3",  // 北韩
+        audio: "audio/kor.mp3",  // 北韩
         image: "assets/images/kor.png"
     },
     {
-        audio: "audio/kor.mp3",  // 朝鲜南
+        audio: "audio/prk.mp3",  // 朝鲜南
         image: "assets/images/prk.png"
     }
 ];
@@ -61,11 +61,11 @@ toggleButton.addEventListener("click", function() {
     
     // 更新按钮文字和当前模式标签
     if (currentSet === 0) {
-        toggleButton.textContent = "切换为恩情";
-        labelElement.textContent = "当前模式: 忠诚";
-    } else {
         toggleButton.textContent = "切换为忠诚";
         labelElement.textContent = "当前模式: 恩情";
+    } else {
+        toggleButton.textContent = "切换为恩情";
+        labelElement.textContent = "当前模式: 忠诚";
     }
 
     // 仅在播放状态下才加载并播放
