@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 0px;
+}
+
+button {
+    padding: 12px 12px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button img {
+    width: 24px;        /* 设置图标的大小 */
+    height: 24px;       /* 设置图标的大小 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button img {
+    vertical-align: middle;
+}
